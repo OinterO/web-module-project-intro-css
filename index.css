@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
@@ -46,7 +47,7 @@ table {
 
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size: 30px;
+    font-size: 80px;
 }
 
 
@@ -54,15 +55,109 @@ h1{
 
 #but1{
     background-color: #FF764E;
+    margin: 5% 5% 0 25%;
+    border-radius: 25px;
+    padding: 30px;
+    font-size:30px;
+    color: white;
+    
 }
 #but2{
     background-color: #5ED3EB ;
+    border-color:  #5ED3EB;
+    margin: 0 5% 0 0;
+    padding: 30px;
+    border-radius: 25px;
+    font-size: 30px;
+    color: white;
+
 }
 #but3{
     background-color: #FFCD69;
+    border-color: #FFCD69;
+    margin: 0 5% 0 0;
+    padding: 30px;
+    border-radius: 25px;
+    font-size: 30px;
+    color: white;
 }
 
-src{ 
+.Avatar{ 
 border-radius: 50%;
+height: 15%;
+width: 15%;
+margin: 10% 15% 15% 20%;
+display: inline-block;
 
+}
+
+header{
+    text-align: center;
+    margin: -30% 5% 5% 35%;
+}
+
+.Writing{
+margin: 0 0 0 5%;
+padding: 40px;
+}
+p{
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.fire{
+    max-width: 10%;
+    height: auto;
+    padding: 25px;
+    margin: 0 50%  0 50%;
+}
+
+.van{
+    max-width: 10%;
+    height: auto;
+    padding: 25px;
+    margin: 0 0  0 50%;
+}
+
+body{
+    border: solid;
+    border-width: 10px;
+    overflow-x: hidden;
+}
+
+.Tomato{
+
+padding: 200px 0 0 200px;
+
+
+}
+
+.vanwords{
+    margin: 0 20% 0 30%;
+    
+}
+
+*{
+box-sizing: border-box;
+border: 1px salmon;
+max-width: 100%;
+}
+
+.firewords{
+    margin: 0 20% 0 30%;
+    
+}
+
+.sec{
+    margin-top: 10%;
+    text-align: center;
+    background-color: #DDB9A3;
+    color: white;
+    padding: 35px;
+   
+
+}
+
+footer{
+    background-color: #F9E7DC;
 }
